@@ -1,14 +1,17 @@
 import { useState } from 'react'
 
 import './App.css'
+import PoseDetection from './Components/Webcam';
+
 
 function App() {
  
 
   return (
     <>
-      <h1>My Name i sShoaib</h1>
-      <p>I am an engineeer</p>
+     
+      
+      <PoseDetection/>
     </>
   )
 }
